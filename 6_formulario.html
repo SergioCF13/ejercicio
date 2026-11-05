@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Libro de Visitas</title>
+</head>
+<body>
+
+    <h2>Libro de Visitas</h2>
+    <hr>
+
+    <form action="mailto:correo@ejemplo.com"
+          method="POST"
+          enctype="text/plain">
+
+        <h3>Datos personales</h3>
+
+        Nombre:
+        <br>
+        <input type="text" name="nombre" required>
+        <br><br>
+
+        Apellidos:
+        <br>
+        <input type="text" name="apellido" required>
+        <br><br>
+
+        Edad:
+        <br>
+        <input type="number" name="edad" min="1" max="120">
+        <br><br>
+
+        Ciudad:
+        <br>
+        <input type="text" name="ciudad">
+        <br><br>
+
+        Fecha de nacimiento:
+        <br>
+        <input type="date" name="fecha">
+        <br><br>
+
+     
+	
+
+        <hr>
+
+        <h3>Comentarios</h3>
+
+        Escribe tus comentarios:
+        <br>
+        <textarea name="comentarios"
+                  rows="6"
+                  cols="40"></textarea>
+
+        <br><br>
+
+        <input type="submit" value="Enviar datos">
+        <input type="reset" value="Borrar datos">
+
+    </form>
+
+    <hr>
+
+    <p>
+        <a href="index.html">
+            Volver a la página principal
+        </a>
+    </p>
+
+</body>
+</html>
